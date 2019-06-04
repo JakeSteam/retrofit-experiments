@@ -30,7 +30,7 @@ class Controller : Callback<List<Change>> {
     override fun onResponse(call: Call<List<Change>>, response: Response<List<Change>>) {
         if (response.isSuccessful) {
             val changesList = response.body()
-            changesList.forEach { change -> println(change.subject) }
+            changesList?.forEach { change -> println(change.subject) }
         } else {
             System.out.println(response.errorBody())
         }
