@@ -1,9 +1,9 @@
-package uk.co.jakelee.retrofitexperiments.vogella
+package uk.co.jakelee.retrofitexperiments.vogella.gerritt
 
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query
-import uk.co.jakelee.retrofitexperiments.vogella.model.Change
+import uk.co.jakelee.retrofitexperiments.vogella.gerritt.Change
 
 interface GerritAPI {
 

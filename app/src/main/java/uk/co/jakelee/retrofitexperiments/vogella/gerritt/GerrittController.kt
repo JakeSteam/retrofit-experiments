@@ -1,4 +1,4 @@
-package uk.co.jakelee.retrofitexperiments.vogella
+package uk.co.jakelee.retrofitexperiments.vogella.gerritt
 
 import com.google.gson.GsonBuilder
 import retrofit2.Call
@@ -8,7 +8,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 
-class Controller : Callback<List<Change>> {
+class GerrittController : Callback<List<Change>> {
 
     fun start() {
         val gson = GsonBuilder()
